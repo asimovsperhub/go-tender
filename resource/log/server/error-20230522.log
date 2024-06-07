@@ -1,0 +1,40 @@
+2023-05-22 17:31:59.639 {8864dc844e6d6117027b4c3113269a93} 500 "GET http 127.0.0.1:30300 /api/v1/desk/index/search/enterprise/commerce HTTP/1.1" 0.022, 127.0.0.1, "", "ApiPOST Runtime +https://www.apipost.cn", 50, "Internal Error", ""
+Stack:
+1. exception recovered: 获取工商和主要人员数据失败
+   1).  tender/library/liberr.ErrIsNil
+        /Users/apple/work/go/src/project/tenderBack/library/liberr/err.go:12
+   2).  tender/internal/app/desk/logic/index.(*sIndex).EnterpriseCommerce
+        /Users/apple/work/go/src/project/tenderBack/internal/app/desk/logic/index/search.go:79
+   3).  tender/internal/app/desk/controller.(*IndexController).EnterpriseDetails
+        /Users/apple/work/go/src/project/tenderBack/internal/app/desk/controller/index.go:31
+   4).  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+   5).  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+   6).  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+   7).  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:75
+   8).  github.com/gogf/gf/v2/util/gutil.TryCatch
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+   9).  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+   10). tender/internal/app/desk/logic/middleware.(*sMiddleware).Ctx
+        /Users/apple/work/go/src/project/tenderBack/internal/app/desk/logic/middleware/middleware.go:28
+   11). github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+   12). github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+   13). github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+   14). tender/internal/app/common/logic/middleware.(*sMiddleware).MiddlewareCORS
+        /Users/apple/work/go/src/project/tenderBack/internal/app/common/logic/middleware/middleware.go:23
+   15). github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+   16). github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+   17). github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+   18). github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+

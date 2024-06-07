@@ -1,0 +1,24 @@
+2023-05-15 13:46:20 [INFO] {2012e624ee3a5f171aea6c0709bd1b23} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-15 13:46:20 [INFO] {2012e624ee3a5f171aea6c0709bd1b23} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
+2023-05-15 13:46:53 [INFO] {d085cdf3f53a5f176b27001005e28b60} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-15 13:46:53 [INFO] {d085cdf3f53a5f176b27001005e28b60} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
+2023-05-15 13:47:49 [INFO] {c0c949fa023b5f176c270010e74e3fa0} /Users/apple/work/go/src/project/tenderBack/gftoken/gftoken.go:118: token is invalid
+2023-05-15 13:48:17 [INFO] {f09fa591093b5f176d270010a3393ba6} /Users/apple/work/go/src/project/tenderBack/gftoken/gftoken.go:225: [GFToken]decode error Token:  5rrLCPtzPM4tnvlHq+0iav2BDmIrd9QCru7zhgXMkRdyxc/zgz9MDOUbX2ai5WTiduMBQEVXAHBnCsYuvucPcorXuHmtBp/3Be4HrNI1gQ5dJBcct8prAVLJkzfb81ouAulUW806EoRiPPrrvaD5qg== base64.StdEncoding.Decode failed: illegal base64 data at input byte 0
+2023-05-15 13:48:17 [INFO] {f09fa591093b5f176d270010a3393ba6} /Users/apple/work/go/src/project/tenderBack/gftoken/gftoken.go:118: decode error
+2023-05-15 13:48:23 [INFO] {50720ccf0a3b5f176e270010b30b1207} /Users/apple/work/go/src/project/tenderBack/gftoken/gftoken.go:118: token is invalid
+2023-05-15 13:48:28 [INFO] {88f762fb0b3b5f176f27001096f53b16} /Users/apple/work/go/src/project/tenderBack/gftoken/gftoken.go:118: token is invalid
+2023-05-15 13:48:49 [INFO] {90a70bf0103b5f17c10e661410bbc5bc} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-15 13:48:49 [INFO] {90a70bf0103b5f17c10e661410bbc5bc} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
+2023-05-15 13:53:39 [INFO] {2023d176543b5f1706e74559dcaef4e2} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-15 13:53:39 [INFO] {2023d176543b5f1706e74559dcaef4e2} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
+2023-05-15 14:20:55 [INFO] {b8270361d13c5f17911dab7ea7574222} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-15 14:20:55 [INFO] {b8270361d13c5f17911dab7ea7574222} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
+2023-05-15 14:22:36 [INFO] {80a370e3e83c5f1739db645c45fe0152} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-15 14:22:36 [INFO] {80a370e3e83c5f1739db645c45fe0152} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
+2023-05-15 14:52:21 [INFO] {e042935c883e5f1770464b61ef664464} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-15 14:52:21 [INFO] {e042935c883e5f1770464b61ef664464} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
+2023-05-15 15:00:56 [INFO] {d072a66a003f5f17eb64c763a303b4ae} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-15 15:00:56 [INFO] {d072a66a003f5f17eb64c763a303b4ae} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
+2023-05-15 16:05:55 [INFO] {a0acc8138c425f172e59637187e23bca} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-15 16:05:55 [INFO] {a0acc8138c425f172e59637187e23bca} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
+2023-05-15 16:06:12 [INFO] {c8f8991a90425f172f5963715ad0fe48} /Users/apple/work/go/src/project/tenderBack/gftoken/gftoken.go:118: decrypt Token empty

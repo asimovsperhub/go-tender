@@ -1,0 +1,121 @@
+2023-05-21 15:26:26 [INFO] {08b6f20be0176117b719535ee8f8e7f5} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-21 15:26:26 [INFO] {08b6f20be0176117b719535ee8f8e7f5} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
+2023-05-21 15:26:43 [ERRO] {b01e08d8e3176117b819535ef05c6753} /Users/apple/work/go/src/project/tenderBack/library/liberr/err.go:11: SELECT COUNT(1) FROM (SELECT COUNT(COUNT(Id) total,city) FROM `bid` GROUP BY `city`) count_alias: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'total,city) FROM `bid` GROUP BY `city`) count_alias' at line 1
+Stack:
+1.  tender/library/liberr.ErrIsNil
+    /Users/apple/work/go/src/project/tenderBack/library/liberr/err.go:11
+2.  tender/internal/app/system/logic/sys_data.(*sDataManger).Statistics.func3
+    /Users/apple/work/go/src/project/tenderBack/internal/app/system/logic/sys_data/data.go:1006
+3.  github.com/gogf/gf/v2/util/gutil.Try
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:40
+4.  github.com/gogf/gf/v2/frame/g.Try
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/frame/g/g_func.go:67
+5.  tender/internal/app/system/logic/sys_data.(*sDataManger).Statistics
+    /Users/apple/work/go/src/project/tenderBack/internal/app/system/logic/sys_data/data.go:1004
+6.  tender/internal/app/system/controller.(*sysDataController).Statistics
+    /Users/apple/work/go/src/project/tenderBack/internal/app/system/controller/sys_data.go:158
+7.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+8.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+9.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:75
+11. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+13. tender/internal/app/system/logic/middleware.(*sMiddleware).Auth
+    /Users/apple/work/go/src/project/tenderBack/internal/app/system/logic/middleware/middleware.go:74
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+15. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+17. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+18. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+19. tender/internal/app/system/logic/middleware.(*sMiddleware).Ctx
+    /Users/apple/work/go/src/project/tenderBack/internal/app/system/logic/middleware/middleware.go:46
+20. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+21. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+22. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+23. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+25. tender/gftoken.(*GfToken).authMiddleware
+    /Users/apple/work/go/src/project/tenderBack/gftoken/middleware.go:21
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+27. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+29. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+31. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+32. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+33. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+34. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+35. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+36. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+37. tender/internal/app/common/logic/middleware.(*sMiddleware).MiddlewareCORS
+    /Users/apple/work/go/src/project/tenderBack/internal/app/common/logic/middleware/middleware.go:23
+38. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+39. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+40. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+41. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+42. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+43. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+44. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+45. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+46. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+47. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+48. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+49. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+
+2023-05-21 15:37:09 [INFO] {40abe2bc751861173da67e57177b2034} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-21 15:37:09 [INFO] {40abe2bc751861173da67e57177b2034} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
+2023-05-21 15:42:25 [INFO] {b0285d4cbf18611789bd3d16d74bf98f} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-21 15:42:25 [INFO] {b0285d4cbf18611789bd3d16d74bf98f} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
+2023-05-21 20:51:55 [INFO] {a8ee42e1a2296117241a4e01a65be399} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-21 20:51:55 [INFO] {a8ee42e1a2296117241a4e01a65be399} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
+2023-05-21 21:07:32 [INFO] {18613e0a7d2a611758fe374ec5d16eed} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-21 21:07:32 [INFO] {18613e0a7d2a611758fe374ec5d16eed} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
+2023-05-21 21:09:41 [INFO] {b044033d9b2a61177dabf37cd48b8652} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-21 21:09:41 [INFO] {b044033d9b2a61177dabf37cd48b8652} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
+2023-05-21 21:10:33 [INFO] {c8af3148a72a611755ae7f5adbcb71a5} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-21 21:10:33 [INFO] {c8af3148a72a611755ae7f5adbcb71a5} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
+2023-05-21 21:10:55 [INFO] {9847544aac2a611731d8fb1a3c5a4d68} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-21 21:10:55 [INFO] {9847544aac2a611731d8fb1a3c5a4d68} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
+2023-05-21 21:14:55 [INFO] {90e5ce56e42a6117bee0b7026e0a7cf2} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-21 21:14:55 [INFO] {90e5ce56e42a6117bee0b7026e0a7cf2} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
+2023-05-21 21:17:53 [INFO] {78d5f7ae0d2b61178eb3933316a1bc99} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-21 21:17:53 [INFO] {78d5f7ae0d2b61178eb3933316a1bc99} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket

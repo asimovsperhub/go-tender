@@ -1,0 +1,32 @@
+
+# CLI tool, only in development environment.
+# https://goframe.org/pages/viewpage.action?pageId=3673173
+gfcli:
+  gen:
+    dao:
+      # 后台数据模型
+#      - link: "mysql:root:JyMysql@007@tcp(42.193.247.183:3306)/tender"
+#        # member_integral
+#        # sys_user,sys_dept,sys_role,sys_post,sys_auth_rule,casbin_rule,sys_login_log,sys_user_post,member_user,member_fee,member_integral,member_subscription,sys_enterprise
+#        # sys_dataset
+#        tables: "member_subscription"
+#        removePrefix: "gf_"
+#        descriptionTag: true
+#        noModelComment: true
+#        path: "./internal/app/system"
+#
+#      - link: "mysql:root:JyMysql@007@tcp(81.71.49.57:3306)/crawldata"
+#        # law consultation  bid
+#        tables: "bid,consultation,law"
+#        removePrefix: "cw_"
+#        descriptionTag: true
+#        noModelComment: true
+#        path: "./internal/app/desk"
+      #前台数据模型
+      - link: "mysql:root:JyMysql@007@tcp(42.193.247.183:3306)/tender"
+        # member_collect member_knowledge his_knowledge bbs,bbs_content,bbs_reply bbs_like tyc feedback
+        tables: "member_subscribe"
+        removePrefix: "gf_"
+        descriptionTag: true
+        noModelComment: true
+        path: "./internal/app/desk"

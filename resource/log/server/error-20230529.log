@@ -1,0 +1,78 @@
+2023-05-29 18:00:58.065 {d86f9b41f3946317485ae50352bb8f89} 200 "GET http 127.0.0.1:30300 /api/v1/system/bbs/get HTTP/1.1" 0.000, 127.0.0.1, "", "ApiPOST Runtime +https://www.apipost.cn", 51, "Validation Failed", ""
+Stack:
+论坛id不能为空
+2023-05-29 18:01:16.582 {308f4891f7946317495ae503b081137d} 200 "GET http 127.0.0.1:30300 /api/v1/system/bbs/get HTTP/1.1" 0.001, 127.0.0.1, "", "ApiPOST Runtime +https://www.apipost.cn", 51, "Validation Failed", ""
+Stack:
+论坛id不能为空
+2023-05-29 18:01:24.310 {d89af35df99463174a5ae503d179e75b} 200 "GET http 127.0.0.1:30300 /api/v1/system/bbs/get HTTP/1.1" 0.000, 127.0.0.1, "", "ApiPOST Runtime +https://www.apipost.cn", 51, "Validation Failed", ""
+Stack:
+论坛id不能为空
+2023-05-29 18:01:31.364 {10446202fb9463174b5ae503ba0b1992} 200 "GET http 127.0.0.1:30300 /api/v1/system/bbs/get HTTP/1.1" 0.000, 127.0.0.1, "", "ApiPOST Runtime +https://www.apipost.cn", 51, "Validation Failed", ""
+Stack:
+论坛id不能为空
+2023-05-29 18:01:38.017 {a80cf18efc9463174c5ae503146d2538} 200 "GET http 127.0.0.1:30300 /api/v1/system/bbs/get HTTP/1.1" 0.000, 127.0.0.1, "", "ApiPOST Runtime +https://www.apipost.cn", 51, "Validation Failed", ""
+Stack:
+论坛id不能为空
+2023-05-29 18:01:43.729 {60d565e3fd9463174d5ae5030d0bff53} 200 "GET http 127.0.0.1:30300 /api/v1/system/bbs/get HTTP/1.1" 0.000, 127.0.0.1, "", "ApiPOST Runtime +https://www.apipost.cn", 51, "Validation Failed", ""
+Stack:
+论坛id不能为空
+2023-05-29 18:01:44.606 {d07ba217fe9463174e5ae503b7257a74} 200 "GET http 127.0.0.1:30300 /api/v1/system/bbs/get HTTP/1.1" 0.001, 127.0.0.1, "", "ApiPOST Runtime +https://www.apipost.cn", 51, "Validation Failed", ""
+Stack:
+论坛id不能为空
+2023-05-29 18:01:44.867 {20693c27fe9463174f5ae503aef7fbd4} 200 "GET http 127.0.0.1:30300 /api/v1/system/bbs/get HTTP/1.1" 0.000, 127.0.0.1, "", "ApiPOST Runtime +https://www.apipost.cn", 51, "Validation Failed", ""
+Stack:
+论坛id不能为空
+2023-05-29 18:01:45.175 {d0729339fe946317505ae503a992d775} 200 "GET http 127.0.0.1:30300 /api/v1/system/bbs/get HTTP/1.1" 0.000, 127.0.0.1, "", "ApiPOST Runtime +https://www.apipost.cn", 51, "Validation Failed", ""
+Stack:
+论坛id不能为空
+2023-05-29 18:01:47.028 {a05508a8fe946317515ae5036728f71d} 200 "GET http 127.0.0.1:30300 /api/v1/system/bbs/get HTTP/1.1" 0.000, 127.0.0.1, "", "ApiPOST Runtime +https://www.apipost.cn", 51, "Validation Failed", ""
+Stack:
+论坛id不能为空
+2023-05-29 18:02:13.225 {38431bbe04956317525ae5034a620c86} 200 "GET http 127.0.0.1:30300 /api/v1/system/bbs/get HTTP/1.1" 0.057, 127.0.0.1, "", "ApiPOST Runtime +https://www.apipost.cn", -1, "", ""
+Stack:
+1. 获取论坛数据失败
+   1).  github.com/gogf/gf/v2/util/gutil.Try.func1
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:36
+   2).  tender/library/liberr.ErrIsNil
+        /Users/apple/work/go/src/project/tenderBack/library/liberr/err.go:12
+   3).  tender/internal/app/desk/logic/bbs.(*sBbs).BbsGet.func1
+        /Users/apple/work/go/src/project/tenderBack/internal/app/desk/logic/bbs/bbs.go:157
+   4).  github.com/gogf/gf/v2/util/gutil.Try
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:40
+   5).  github.com/gogf/gf/v2/frame/g.Try
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/frame/g/g_func.go:67
+   6).  tender/internal/app/desk/logic/bbs.(*sBbs).BbsGet
+        /Users/apple/work/go/src/project/tenderBack/internal/app/desk/logic/bbs/bbs.go:155
+   7).  tender/internal/app/desk/controller.(*cBbs).BbsGet
+        /Users/apple/work/go/src/project/tenderBack/internal/app/desk/controller/bbs.go:37
+   8).  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+   9).  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+   10). github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+   11). github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:90
+   12). github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:89
+   13). github.com/gogf/gf/v2/util/gutil.TryCatch
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+   14). github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+   15). github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+   16). github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+   17). github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+   18). tender/internal/app/common/logic/middleware.(*sMiddleware).MiddlewareCORS
+        /Users/apple/work/go/src/project/tenderBack/internal/app/common/logic/middleware/middleware.go:23
+   19). github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+   20). github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+   21). github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+   22). github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+        /Users/apple/work/go/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+

@@ -1,0 +1,2 @@
+2023-05-23 14:47:23.158 {60669685e7b26117a43c3576c3d8e381} 200 "GET http 127.0.0.1:30300 /api/v1/system/tender/download?ids=197797 HTTP/1.1" 0.097, 127.0.0.1, "", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+2023-05-23 14:48:02.242 {b03c479aecb26117a73c35761b2cb412} 200 "GET http 127.0.0.1:30300 /api/v1/system/tender/download?ids=197225 HTTP/1.1" 17.359, 127.0.0.1, "", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"

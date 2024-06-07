@@ -1,0 +1,3 @@
+2023-05-15 14:57:30.781 {605b4277d03e5f1775464b61c3a270e8} 200 "POST http 127.0.0.1:30300 /api/v1/system/data/tender/add/sort HTTP/1.1" 0.047, 127.0.0.1, "", "ApiPOST Runtime +https://www.apipost.cn", 51, "Validation Failed", ""
+Stack:
+id列表不能为空

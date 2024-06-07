@@ -1,0 +1,12 @@
+2023-05-29 16:08:39.893 [INFO] pid[31159]: http server started listening on [:30300]
+2023-05-29 16:08:39.893 [INFO] swagger ui is serving at address: http://127.0.0.1:30300/swagger/
+2023-05-29 16:08:39.894 [INFO] openapi specification is serving at address: http://127.0.0.1:30300/api.json
+2023-05-29 16:15:27.541 [INFO] pid[31159]: all servers shutdown
+2023-05-29 18:00:52.566 [INFO] pid[33262]: http server started listening on [:30300]
+2023-05-29 18:00:52.566 [INFO] swagger ui is serving at address: http://127.0.0.1:30300/swagger/
+2023-05-29 18:00:52.567 [INFO] openapi specification is serving at address: http://127.0.0.1:30300/api.json
+2023-05-29 18:03:20.503 [INFO] pid[33262]: all servers shutdown
+2023-05-29 18:03:28.851 [INFO] pid[33341]: http server started listening on [:30300]
+2023-05-29 18:03:28.851 [INFO] swagger ui is serving at address: http://127.0.0.1:30300/swagger/
+2023-05-29 18:03:28.852 [INFO] openapi specification is serving at address: http://127.0.0.1:30300/api.json
+2023-05-29 18:06:07.594 [INFO] pid[33341]: all servers shutdown

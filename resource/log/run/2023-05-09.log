@@ -1,0 +1,4 @@
+2023-05-09 22:07:17 [INFO] {006def18c97e5d179e67e8527bf44771} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-09 22:07:18 [INFO] {006def18c97e5d179e67e8527bf44771} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
+2023-05-09 22:13:14 [INFO] {b03995251c7f5d178b70476cabc115dc} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-05-09 22:13:14 [INFO] {b03995251c7f5d178b70476cabc115dc} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket

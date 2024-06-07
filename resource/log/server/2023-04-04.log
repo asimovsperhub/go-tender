@@ -1,0 +1,140 @@
+2023-04-04 13:19:36.050 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 13:19:36.050 [INFO] pid[43537]: http server started listening on [:20200]
+2023-04-04 13:19:36.050 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 13:30:39.793 [INFO] pid[43537]: all servers shutdown
+2023-04-04 13:30:55.042 [INFO] pid[43766]: http server started listening on [:20200]
+2023-04-04 13:30:55.042 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 13:30:55.042 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 13:45:14.270 [INFO] pid[43766]: all servers shutdown
+2023-04-04 15:25:58.459 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 15:25:58.459 [INFO] pid[45627]: http server started listening on [:20200]
+2023-04-04 15:25:58.460 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 15:26:48.303 [INFO] pid[45627]: all servers shutdown
+2023-04-04 15:26:58.456 [INFO] pid[45693]: http server started listening on [:20200]
+2023-04-04 15:26:58.456 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 15:26:58.456 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 15:35:33.197 [INFO] pid[45693]: all servers shutdown
+2023-04-04 16:50:33.217 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 16:50:33.216 [INFO] pid[47000]: http server started listening on [:20200]
+2023-04-04 16:50:33.217 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 16:51:25.432 [INFO] pid[47000]: all servers shutdown
+2023-04-04 16:51:35.330 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 16:51:35.331 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 16:51:35.330 [INFO] pid[47045]: http server started listening on [:20200]
+2023-04-04 17:02:07.620 [INFO] pid[47045]: all servers shutdown
+2023-04-04 17:02:22.018 [INFO] pid[47275]: http server started listening on [:20200]
+2023-04-04 17:02:22.018 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 17:02:22.018 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 17:03:41.918 [INFO] pid[47275]: all servers shutdown
+2023-04-04 17:03:55.285 [INFO] pid[47341]: http server started listening on [:20200]
+2023-04-04 17:03:55.285 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 17:03:55.286 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 17:05:08.987 [INFO] pid[47341]: all servers shutdown
+2023-04-04 17:05:19.534 [INFO] pid[47397]: http server started listening on [:20200]
+2023-04-04 17:05:19.534 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 17:05:19.535 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 17:05:57.326 [INFO] pid[47397]: all servers shutdown
+2023-04-04 17:06:07.880 [INFO] pid[47443]: http server started listening on [:20200]
+2023-04-04 17:06:07.880 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 17:06:07.881 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 17:08:30.858 [INFO] pid[47443]: all servers shutdown
+2023-04-04 17:08:42.072 [INFO] pid[47503]: http server started listening on [:20200]
+2023-04-04 17:08:42.073 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 17:08:42.073 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 17:09:19.463 [INFO] pid[47503]: all servers shutdown
+2023-04-04 17:09:29.051 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 17:09:29.051 [INFO] pid[47546]: http server started listening on [:20200]
+2023-04-04 17:09:29.051 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 18:25:55.256 [INFO] pid[47546]: all servers shutdown
+2023-04-04 18:26:15.753 [INFO] pid[48625]: http server started listening on [:20200]
+2023-04-04 18:26:15.753 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 18:26:15.753 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 18:28:02.253 [INFO] pid[48625]: all servers shutdown
+2023-04-04 18:28:11.959 [INFO] pid[48692]: http server started listening on [:20200]
+2023-04-04 18:28:11.959 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 18:28:11.959 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 18:50:43.286 [INFO] pid[48692]: all servers shutdown
+2023-04-04 18:50:57.428 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 18:50:57.428 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 18:50:57.428 [INFO] pid[49310]: http server started listening on [:20200]
+2023-04-04 18:58:53.961 [INFO] pid[49310]: all servers shutdown
+2023-04-04 18:59:05.996 [INFO] pid[49452]: http server started listening on [:20200]
+2023-04-04 18:59:05.996 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 18:59:05.996 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 18:59:33.004 [INFO] pid[49452]: all servers shutdown
+2023-04-04 18:59:42.692 [INFO] pid[49503]: http server started listening on [:20200]
+2023-04-04 18:59:42.692 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 18:59:42.692 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 19:00:14.258 [INFO] pid[49503]: all servers shutdown
+2023-04-04 19:00:23.634 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 19:00:23.634 [INFO] pid[49553]: http server started listening on [:20200]
+2023-04-04 19:00:23.634 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 19:00:33.554 [INFO] pid[49553]: all servers shutdown
+2023-04-04 19:00:44.579 [INFO] pid[49591]: http server started listening on [:20200]
+2023-04-04 19:00:44.579 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 19:00:44.579 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 19:05:57.236 [INFO] pid[49591]: all servers shutdown
+2023-04-04 19:06:06.582 [INFO] pid[49694]: http server started listening on [:20200]
+2023-04-04 19:06:06.582 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 19:06:06.582 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 19:11:44.875 [INFO] pid[49694]: all servers shutdown
+2023-04-04 19:11:55.574 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 19:11:55.574 [INFO] pid[49793]: http server started listening on [:20200]
+2023-04-04 19:11:55.574 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 19:12:13.824 [INFO] pid[49793]: all servers shutdown
+2023-04-04 19:12:22.744 [INFO] pid[49832]: http server started listening on [:20200]
+2023-04-04 19:12:22.744 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 19:12:22.744 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 19:21:16.544 [INFO] pid[49832]: all servers shutdown
+2023-04-04 19:21:26.688 [INFO] pid[49980]: http server started listening on [:20200]
+2023-04-04 19:21:26.688 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 19:21:26.688 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 19:22:25.324 [INFO] pid[49980]: all servers shutdown
+2023-04-04 19:22:35.713 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 19:22:35.713 [INFO] pid[50038]: http server started listening on [:20200]
+2023-04-04 19:22:35.713 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 19:22:37.050 [INFO] pid[50038]: all servers shutdown
+2023-04-04 19:22:45.530 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 19:22:45.530 [INFO] pid[50072]: http server started listening on [:20200]
+2023-04-04 19:22:45.531 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 19:25:14.621 [INFO] pid[50072]: all servers shutdown
+2023-04-04 19:25:24.281 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 19:25:24.281 [INFO] pid[50140]: http server started listening on [:20200]
+2023-04-04 19:25:24.281 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 19:25:54.736 [INFO] pid[50140]: all servers shutdown
+2023-04-04 19:26:08.380 [INFO] pid[50197]: http server started listening on [:20200]
+2023-04-04 19:26:08.380 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 19:26:08.380 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 19:26:16.515 [INFO] pid[50197]: all servers shutdown
+2023-04-04 19:26:27.995 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 19:26:27.995 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 19:26:27.995 [INFO] pid[50233]: http server started listening on [:20200]
+2023-04-04 19:27:32.863 [INFO] pid[50233]: all servers shutdown
+2023-04-04 19:27:41.633 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 19:27:41.633 [INFO] pid[50283]: http server started listening on [:20200]
+2023-04-04 19:27:41.634 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 19:29:49.165 [INFO] pid[50283]: all servers shutdown
+2023-04-04 19:59:17.264 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 19:59:17.264 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 19:59:17.264 [INFO] pid[50915]: http server started listening on [:20200]
+2023-04-04 19:59:50.768 [INFO] pid[50915]: all servers shutdown
+2023-04-04 20:01:54.843 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 20:01:54.843 [INFO] pid[51029]: http server started listening on [:20200]
+2023-04-04 20:01:54.844 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 20:06:33.068 [INFO] pid[51029]: all servers shutdown
+2023-04-04 20:06:44.137 [INFO] pid[51148]: http server started listening on [:20200]
+2023-04-04 20:06:44.137 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 20:06:44.137 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 20:07:25.785 [INFO] pid[51148]: all servers shutdown
+2023-04-04 20:07:35.045 [INFO] pid[51192]: http server started listening on [:20200]
+2023-04-04 20:07:35.045 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 20:07:35.045 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 20:17:01.079 [INFO] pid[51192]: all servers shutdown
+2023-04-04 20:17:12.780 [INFO] pid[51382]: http server started listening on [:20200]
+2023-04-04 20:17:12.780 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 20:17:12.780 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 20:19:58.944 [INFO] pid[51382]: all servers shutdown
+2023-04-04 20:20:26.794 [INFO] swagger ui is serving at address: http://127.0.0.1:20200/swagger/
+2023-04-04 20:20:26.794 [INFO] openapi specification is serving at address: http://127.0.0.1:20200/api.json
+2023-04-04 20:20:26.794 [INFO] pid[51541]: http server started listening on [:20200]
+2023-04-04 20:21:51.806 [INFO] pid[51541]: all servers shutdown

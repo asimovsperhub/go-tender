@@ -1,0 +1,5 @@
+2023-04-19 17:13:47 [INFO] {80eacf82294b5717231ab902dcd63859} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-04-19 17:13:47 [INFO] {80eacf82294b5717231ab902dcd63859} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
+2023-04-19 17:14:35 [INFO] {b8c6e7c3344b5717241ab9020cf8cb6f} /Users/apple/work/go/src/project/tenderBack/gftoken/gftoken.go:118: token is invalid
+2023-04-19 18:26:00 [INFO] {a85b81571a4f5717df5c01140c5838bd} /Users/apple/work/go/src/project/tenderBack/internal/cmd/cmd.go:25: TENDER version: 1.0.0
+2023-04-19 18:26:00 [INFO] {a85b81571a4f5717df5c01140c5838bd} /Users/apple/work/go/src/project/tenderBack/internal/packed/websocket/init.go:24: 启动：WebSocket
